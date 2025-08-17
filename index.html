@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Currículo Web</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1 id="saudacao">Bem-vindo(a) ao meu Currículo Web!</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- SOBRE -->
+    <section id="sobre">
+      <article>
+        <h2>Sobre Mim</h2>
+        <img src="media/bianca.jpg" alt="Minha foto de perfil" class="foto-perfil">
+        <p>Olá, meu nome é Bianca Maccarini e este é meu currículo em formato web. Aqui você encontra informações sobre minhas habilidades, contatos e um pouco sobre mim.</p>
+      </article>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades">
+      <h2>Minhas Habilidades</h2>
+      <ul>
+        <li>HTML5, CSS3 e JavaScript</li>
+        <li>Git e GitHub</li>
+        <li>Criação de interfaces responsivas</li>
+      </ul>
+      <canvas id="grafico" width="200" height="200"></canvas>
+    </section>
+
+    <!-- MÍDIA -->
+    <section id="midia">
+      <h2>Running in the Night</h2>
+      <audio controls src="media/running-in-the-night.mp3">
+        Seu navegador não suporta áudio.
+      </audio>
+      <p>Áudio demonstrativo para compor o portfólio.</p>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato">
+      <h2>Contato</h2>
+      <form>
+        <label for="nome">Digite seu nome:</label>
+        <input type="text" id="nome" placeholder="Seu nome">
+        <button type="button" id="btn">Enviar</button>
+      </form>
+
+      <p>📧 
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=emailBianca.maccarini@gmail.com" target="_blank">
+          emailBianca.maccarini@gmail.com
+        </a>
+      </p>
+
+      <p>🌐 <a href="https://github.com/Makorini" target="_blank">GitHub</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Currículo Web desenvolvido por Bianca</p>
+  </footer>
+</body>
+</html>
